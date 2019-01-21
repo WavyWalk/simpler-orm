@@ -24,8 +24,9 @@ repositories {
 }
 
 dependencies {
-    compile 'at.wavywalk.simpler:simpler-orm:0.1.0:sources'
     compile 'at.wavywalk.simpler:simpler-orm:0.1.0'
+    compile 'at.wavywalk.simpler:simpler-orm:0.1.0:sources'
+    kapt 'at.wavywalk.simpler:simpler-orm:0.1.0' // kapt it
 }
 ```
 # dependencies
