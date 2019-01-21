@@ -14,18 +14,20 @@ This lib is an approach to ORM of a hobby programmer!
 * good validation approach
 
 # installation
-it's not on the repo engines, so just clone it in your project PARENT folder.
-in your project's settings.graddle add:
-```groovy
-include ':simpler-orm'  
-project(':simpler-orm').projectDir = new File(settingsDir, "../simpler-orm")
-```
-in build.graddle:
-```groovy
-compile project(':simpler-orm')
-kapt project(':simpler-orm')
-```
+```kotlin
+//build.gradle
+repositories {
+    mavenCentral()
+    maven {
+        url  "https://dl.bintray.com/wavywalk/maven" //add this repo
+    }
+}
 
+dependencies {
+    compile 'at.wavywalk.simpler:simpler-orm:0.1.0:sources'
+    compile 'at.wavywalk.simpler:simpler-orm:0.1.0'
+}
+```
 # dependencies
 Depends on Jooq heavily.
 
