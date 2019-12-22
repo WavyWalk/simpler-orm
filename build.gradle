@@ -15,7 +15,7 @@ plugins {
 apply plugin: 'com.novoda.bintray-release'
 
 group 'at.wavywalk.simpler.orm'
-version '0.1.0'
+version '0.1.01'
 
 
 repositories {
