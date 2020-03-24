@@ -1,9 +1,3 @@
-# preface
-Hibernate is a divine tech that mere mortals can hardly master (except the simplest CRUD operations).
-How sweet it is in ActiveRecord or Eloquent to control your models and how it's missed in JVM cruel world, for someone 
-who wants to jump in it.
-This lib is an approach to ORM of a hobby programmer!
-
 # features
 * no reflection, all is generated through annotations
 * unopinionated, unobtrusive (may become obtrusive for some features).
